@@ -40,7 +40,7 @@ class Program
 
             if (prikaz == "Pridaj Knihu")
             {
-                PridajKnihu();
+                PridajKnihu(); 
             }
         }
     }
