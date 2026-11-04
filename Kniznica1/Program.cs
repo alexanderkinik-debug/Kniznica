@@ -63,7 +63,7 @@ void PridajKnihu()
     string menoknihy = Console.ReadLine();
     Console.WriteLine("Meno autora:");
     string menoautora = Console.ReadLine();
-    Console.WriteLine("Rok vydania:");
+    Console.WriteLine("Rok vydania:"); 
     int rokvydania = int.Parse(Console.ReadLine());
 }
   
