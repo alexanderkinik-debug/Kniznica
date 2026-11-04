@@ -66,7 +66,7 @@ void PridajKnihu()
     Console.WriteLine("Rok vydania:");
     int rokvydania = int.Parse(Console.ReadLine());
 }
- 
+  
 void HladajKnihu()
 {
     Console.WriteLine("Aku knihu hladas?");
