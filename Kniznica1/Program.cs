@@ -29,18 +29,16 @@ class Program
         Hobit.menoautora = "Jane Austen";
         Hobit.rokvydania = 1813;
         Hobit.dostupnost = true;
-        
-        string prikaz = "";
 
-        while (prikaz != "exit")
-
+        while (true)
         {
-            Console.WriteLine("Chceš pridať knihu?");
-            prikaz = Console.ReadLine().ToLower();
-
-            if (prikaz == "Pridaj Knihu")
+            if (Console.ReadLine() == "HladajKnihu")
             {
-                PridajKnihu(); 
+                HladajKnihu();
+            }
+            else if (Console.ReadLine() == "PridajKnihui")
+            {
+                PridajKnihu();
             }
         }
     }
@@ -58,6 +56,7 @@ class kniznica
 {
     public List<kniha> zoznam = new List<kniha>();
 }
+
 void PridajKnihu()
 {
     Console.WriteLine("Novy nazov knihy:");
@@ -68,7 +67,13 @@ void PridajKnihu()
     int rokvydania = int.Parse(Console.ReadLine());
 }
 
-        
+void HladajKnihu()
+{
+    Console.WriteLine("Aku knihu hladas?");
+    string menoautora = Console.ReadLine();
 
-
-
+    if (menoautora == Console.ReadLine())
+    {
+        Console.WriteLine(menoknihy);
+    }
+}
