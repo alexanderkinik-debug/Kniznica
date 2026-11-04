@@ -57,16 +57,15 @@ class kniha
 class kniznica
 {
     public List<kniha> zoznam = new List<kniha>();
-
-    public void PridajKnihu()
-    {
-        Console.WriteLine("Novy nazov knihy:");
-        string menoknihy = Console.ReadLine();
-        Console.WriteLine("Meno autora:");
-        string menoautora = Console.ReadLine();
-        Console.WriteLine("Rok vydania:");
-        int rokvydania = int.Parse(Console.ReadLine());
-    }
+}
+void PridajKnihu()
+{
+    Console.WriteLine("Novy nazov knihy:");
+    string menoknihy = Console.ReadLine();
+    Console.WriteLine("Meno autora:");
+    string menoautora = Console.ReadLine();
+    Console.WriteLine("Rok vydania:");
+    int rokvydania = int.Parse(Console.ReadLine());
 }
 
         
